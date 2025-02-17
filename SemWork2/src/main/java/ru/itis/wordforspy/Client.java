@@ -221,7 +221,7 @@ public class Client extends Application {
                 startTimer();
                 if (name.equals(currentSpyName)) {
                     roleImageView.setImage(new Image("file:src/main/resources/spy.jpg"));
-                    roleLabel.setText("Ваша роль - шпиона");
+                    roleLabel.setText("Ваша роль - шпион");
                     isSpy = true;
                 } else {
                     roleImageView.setImage(new Image("file:src/main/resources/" + actualLocation + ".jpg"));
